@@ -1,7 +1,7 @@
 .box {
   width: 100%;
-  height: 100vh;
   padding: 0.133333rem;
+  height: 100vh;
 }
 .header {
   width: 100%;
@@ -71,9 +71,17 @@
 .shoping {
   width: 100%;
 }
-.shoping p {
+.shoping .p {
   width: 100%;
   height: 1.333333rem;
   line-height: 1.33333rem;
   border-bottom: 1px solid #ccc;
+}
+.shoping .iphone dl {
+  display: flex;
+  justify-content: space-between;
+}
+.shoping .iphone dl dt img {
+  width: 2.066667rem;
+  height: 2.493333rem;
 }
