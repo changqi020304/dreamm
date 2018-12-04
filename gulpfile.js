@@ -17,7 +17,7 @@ gulp.task('lessc', function () {
 //js
 gulp.task('jss', function () {
   gulp.src('src/script/*.js')
-    .pipe(less())
+    .pipe(js())
     // .pipe( auto() )
     .pipe(bs.reload({
       stream: true
