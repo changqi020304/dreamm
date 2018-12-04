@@ -1,16 +1,79 @@
+.box {
+  width: 100%;
+  height: 100vh;
+  padding: 0.133333rem;
+}
 .header {
   width: 100%;
-  height: 80px;
+  height: 1.173333rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
 }
-.header ul {
+.header p {
+  color: #222222;
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+.order {
+  width: 100%;
+  height: 1.333333rem;
+  border-bottom: 3px solid #ccc;
+}
+.order ul {
+  display: flex;
+  padding: 0;
+  height: 1.333333rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.order ul li:last-child {
+  background: green;
+}
+.gath {
+  width: 100%;
+  height: 1.333333rem;
+  color: #222222;
+  font-size: 0.373333rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+.message {
+  width: 100%;
+  height: 2.933333rem;
+  border-bottom: 5px solid #ccc;
+}
+.message ul {
+  padding: 0;
+  list-style: none;
   width: 100%;
 }
-.header ul li {
-  list-style: none;
-  line-height: 100px;
-  float: left;
-  color: red;
-  font-weight: bold;
-  padding: 0 60px;
-  font-size: 70px;
+.message ul li {
+  line-height: 0.466667rem;
+}
+.message .exp {
+  display: flex;
+  justify-content: space-between;
+}
+.message .exp p:first-child {
+  width: 6.053333rem;
+}
+.message .exp p:last-child {
+  width: 2.506667rem;
+  height: 0.746667rem;
+  background: #0089D4;
+  text-align: center;
+  line-height: 0.746667rem;
+  color: white;
+}
+.shoping {
+  width: 100%;
+}
+.shoping p {
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 1.33333rem;
+  border-bottom: 1px solid #ccc;
 }
