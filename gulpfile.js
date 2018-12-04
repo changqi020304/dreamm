@@ -14,7 +14,15 @@ gulp.task('lessc', function () {
     }));
 });
 
-
+//js
+gulp.task('jss', function () {
+  gulp.src('src/script/*.js')
+    .pipe(less())
+    // .pipe( auto() )
+    .pipe(bs.reload({
+      stream: true
+    }));
+});
 // serve启动本地服务
 gulp.task('serve', function () {
   bs.init({
