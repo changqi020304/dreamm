@@ -29,10 +29,17 @@ gulp.task('serve', function () {
     server: {
       baseDir: './'
     },
-    startPath: 'src/html/index1.html'
+    startPath: 'src/html/style1.html'
   })
 })
-
+//html
+gulp.task('html', function(){
+  gulp.src('src/html/*.html')
+    .pipe( fileinclude({
+      prefix: '@@',
+      basepath: 'src/template',
+      indent: true,
+    }) )
 // 自动监听任务
 gulp.task('watch', function () {
 

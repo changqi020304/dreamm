@@ -1,7 +1,10 @@
+ul {
+  padding: 0;
+}
 .box {
   width: 100%;
-  padding: 0.133333rem;
-  height: 100vh;
+  height: 100%;
+  overflow: scroll;
 }
 .header {
   width: 100%;
@@ -78,10 +81,55 @@
   border-bottom: 1px solid #ccc;
 }
 .shoping .iphone dl {
+  border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
 }
 .shoping .iphone dl dt img {
   width: 2.066667rem;
   height: 2.493333rem;
+}
+.shoping .syn {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 5px solid #ccc;
+}
+.orderr {
+  width: 100%;
+  border-bottom: 4px solid #CCC;
+}
+.orderr p {
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 1.33333rem;
+  border-bottom: 1px solid #ccc;
+}
+.orderr .time {
+  padding: 0;
+  width: 100%;
+}
+.orderr .time ul {
+  width: 100%;
+  padding: 0;
+}
+.orderr .time ul li {
+  list-style: none;
+  line-height: 0.4rem;
+  color: #222222;
+}
+.log {
+  width: 100%;
+}
+.log p {
+  width: 100%;
+  height: 1.333333rem;
+  line-height: 1.33333rem;
+  border-bottom: 1px solid #ccc;
+}
+.log ul {
+  list-style: none;
+}
+.log ul li {
+  line-height: 0.373333rem;
+  color: #222;
 }
