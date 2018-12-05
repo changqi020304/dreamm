@@ -29,7 +29,7 @@ gulp.task('serve', function () {
     server: {
       baseDir: './'
     },
-    startPath: 'src/html/style1.html'
+    startPath: 'src/html/index1.html'
   })
 })
 
