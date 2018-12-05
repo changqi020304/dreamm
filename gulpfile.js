@@ -52,7 +52,7 @@ gulp.task('serve', function () {
     server: {
       baseDir: './'
     },
-    startPath: 'src/html/style1.html'
+    startPath: 'src/html/personal center.html'
   })
 })
 // 自动监听任务
