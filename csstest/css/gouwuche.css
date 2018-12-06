@@ -1,0 +1,201 @@
+html,
+body {
+  height: 100px;
+  width: 100%;
+  background: #F4F4F4;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  height: 1.173333rem /* 88/75 */;
+  background: white;
+  font-size: 0.48rem /* 36/75 */;
+}
+ul {
+  list-style: none;
+}
+ul .lione {
+  margin-top: 0.133333rem /* 10/75 */;
+  margin-bottom: 0.133333rem /* 10/75 */;
+}
+ul li {
+  width: 100%;
+  height: 2.666667rem /* 200/75 */;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+ul li div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  position: relative;
+}
+ul li div span {
+  position: absolute;
+  right: 0.2rem /* 15/75 */;
+  bottom: 1.066667rem /* 80/75 */;
+  color: #FF5A00;
+}
+ul li div .chanpin {
+  margin-left: 0.2rem /* 15/75 */;
+}
+ul li div .s {
+  position: absolute;
+  bottom: 0.2rem /* 15/75 */;
+  left: 2.9rem /* 240/75 */;
+  color: #FF5A00;
+}
+ul li div .hahah {
+  -webkit-box-align: top;
+  -webkit-align-items: top;
+      -ms-flex-align: top;
+          align-items: top;
+  font-size: 0.4rem /* 30/75 */;
+  margin-left: 0.24rem /* 18/75 */;
+  margin-bottom: 0.7rem /* 30/75 */;
+}
+ul li div .dian {
+  width: 0.48rem /* 36/75 */;
+  height: 0.48rem /* 36/75 */;
+  margin-left: 0.266667rem /* 20/75 */;
+}
+ul li div .shangpin {
+  width: 1.506667rem /* 113/75 */;
+  height: 1.693333rem /* 127/75 */;
+}
+ul li div form {
+  width: 2.56rem /* 192/75 */;
+  height: 0.693333rem /* 52/75 */;
+  border: 1PX Solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  position: absolute;
+  bottom: 0.133333rem /* 10/75 */;
+  right: 0.133333rem /* 10/75 */;
+}
+ul li div form #jian {
+  width: 32%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+ul li div form input {
+  text-align: center;
+  width: 32%;
+  height: 92%;
+  border: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+ul li div form #jia {
+  width: 32%;
+  height: 100%;
+  border: none;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  height: 1.306667rem /* 98/75 */;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer p img {
+  width: 0.48rem /* 36/75 */;
+  height: 0.48rem /* 36/75 */;
+  margin-left: 0.266667rem /* 20/75 */;
+}
+footer .qina {
+  color: #FF5900;
+}
+footer i {
+  font-size: 0.666667rem /* 50/75 */;
+}
+footer button {
+  width: 3.2rem /* 240/75 */;
+  height: 1.306667rem /* 98/75 */;
+  background: #FF5900;
+  border: none;
+  font-size: 0.426667rem /* 32/75 */;
+  color: white;
+}

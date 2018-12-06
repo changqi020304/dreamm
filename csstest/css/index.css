@@ -2,7 +2,7 @@ html,
 body,
 .box {
   width: 100%;
-  height: 100rem;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -11,9 +11,50 @@ html .body,
 body .body,
 .box .body {
   width: 100%;
-  height: 100rem;
+  height: 230rem;
   border-top: 1rem solid #ccc;
   font-size: 2.5rem;
+}
+html .body .bann,
+body .body .bann,
+.box .body .bann {
+  margin-top: 2rem;
+}
+html .body .tc,
+body .body .tc,
+.box .body .tc,
+html .body .tcc,
+body .body .tcc,
+.box .body .tcc {
+  width: 100%;
+  height: 13rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html .body .tc img,
+body .body .tc img,
+.box .body .tc img,
+html .body .tcc img,
+body .body .tcc img,
+.box .body .tcc img {
+  width: 48%;
+  height: 100%;
+}
+html .body .tcc,
+body .body .tcc,
+.box .body .tcc {
+  margin-top: 1rem;
+}
+html .body .htop,
+body .body .htop,
+.box .body .htop {
+  padding-top: 1rem;
 }
 html .body .soji,
 body .body .soji,
@@ -36,6 +77,29 @@ body .body .soji div,
   width: 49%;
   height: 100%;
   border: 1px solid #ccc;
+  position: relative;
+}
+html .body .soji div .span1,
+body .body .soji div .span1,
+.box .body .soji div .span1 {
+  padding: 1rem;
+  background: #aaa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  color: white;
+}
+html .body .soji div .span2,
+body .body .soji div .span2,
+.box .body .soji div .span2 {
+  padding: 1rem;
+  background: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  color: white;
 }
 html .body .soji div h3,
 body .body .soji div h3,
@@ -204,6 +268,7 @@ body .marquee ul li img,
 html .banner,
 body .banner,
 .box .banner {
+  margin: 0;
   width: 100%;
   height: 25rem;
   background: url(../../src/images/assets/IMG_2201Copy.png) no-repeat;

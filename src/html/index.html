@@ -53,6 +53,30 @@
 					<img src="../../src/images/assets/X161209173233637334.png" alt="">
 					<p>荣耀畅玩6X铂光金标版 3+32G全网通原装</p>
 					<h3>￥ 7288</h3>
+					<span class="span1">已下架</span>
+				</div>
+				<div>
+					<img src="../../src/images/assets/X161209173233637334.png" alt="">
+					<p>荣耀畅玩6X铂光金标版 3+32G全网通原装</p>
+					<h3>￥ 3199</h3>
+					<span class="span2">新品</span>
+				</div>
+			</div>
+			<h4 class="h41">运营商套餐</h4>
+			<div class="tc">
+				<img src="../../src/images/assets/微信截图_20181206093130.png" alt="">
+				<img src="../../src/images/assets/微信截图_20181206093051.png" alt="">
+			</div>
+			<div class="tcc">
+				<img src="../../src/images/assets/微信截图_20181206093051.png" alt="">
+				<img src="../../src/images/assets/微信截图_20181206093130.png" alt="">
+			</div>
+			<h4 class="h41">热销产品</h4>
+			<div class="soji">
+				<div>
+					<img src="../../src/images/assets/X161209173233637334.png" alt="">
+					<p>荣耀畅玩6X铂光金标版 3+32G全网通原装</p>
+					<h3>￥ 9208</h3>
 				</div>
 				<div>
 					<img src="../../src/images/assets/X161209173233637334.png" alt="">
@@ -60,20 +84,34 @@
 					<h3>￥ 3199</h3>
 				</div>
 			</div>
-			<h4 class="h41">运营商套餐</h4>
-			<div class="tc"></div>
+			<div class="soji htop">
+				<div>
+					<img src="../../src/images/assets/X161209173233637334.png" alt="">
+					<p>荣耀畅玩6X铂光金标版 3+32G全网通原装</p>
+					<h3>￥ 1360</h3>
+					<span class="span2">热销</span>
+				</div>
+				<div>
+					<img src="../../src/images/assets/X161209173233637334.png" alt="">
+					<p>荣耀畅玩6X铂光金标版 3+32G全网通原装</p>
+					<h3>￥ 2390</h3>
+					<span class="span2">热销</span>
+				</div>
+			</div>
+			<div class="banner bann"></div>
 		</div>
+		<!-- banner -->
 		<!-- 页脚 -->
 		<div class="footer">
 			<dl>
 				<dt><img src="../../src/images/assets/22.png" alt=""></dt>
 				<dd>首页</dd>
 			</dl>
-			<dl class="ha">
+			<dl class="ha" id="ha">
 				<dt><img src="../../src/images/assets/33.png" alt=""></dt>
 				<dd>商品列表</dd>
 			</dl>
-			<dl>
+			<dl id="gouwuche">
 				<dt><img src="../../src/images/assets/44.png" alt=""></dt>
 				<dd>购物车</dd>
 			</dl>
@@ -82,7 +120,9 @@
 				<dd>我的</dd>
 			</dl>
 		</div>
+		<!-- <div class="banner"></div> -->
 	</div>
+	<!-- <script src='../script/peizhiwenjian.js'></script> -->
 	<script>
 	var lis = marul.children;
 	var id = null;
@@ -95,8 +135,15 @@
 		marul.style.top = -sum * 15 + 'rem';
 	},2000)
 	
+	ha.onclick = function(){
+		location.href = 'shoping.html'
+	}
+
 	gerenzhongxin.onclick = function(){
 		location.href = 'personal center.html'
+	}
+	gouwuche.onclick = function(){
+		location.href = 'gouwuche.html'
 	}
 	</script>
 </body>
