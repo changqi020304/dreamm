@@ -4,15 +4,12 @@ var bs = require('browser-sync').create();
 var rename = require('gulp-rename');
 var cleancss = require('gulp-clean-css');
 var autoprefixer = require('gulp-autoprefixer');
-<<<<<<< HEAD
-// var fileinclued = 
-=======
 var fileinclude = require('gulp-file-include');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 
->>>>>>> 03b0a49f40f9858bf646bed9fafebf8b96f93c6a
+
 // less编译任务
 gulp.task('lessc', function(){
   gulp.src('src/less/*.less')
@@ -28,17 +25,7 @@ gulp.task('lessc', function(){
     }) )
     .pipe( gulp.dest('csstest/css'))
     .pipe( bs.reload({stream: true}));
-
-<<<<<<< HEAD
-//js
-// gulp.task('jss', function () {
-//   gulp.src('src/script/*.js')
-//     // .pipe(js())
-//     // .pipe( auto() )
-//     .pipe(bs.reload({
-//       stream: true
-//     }));
-// });
+  })
 // serve启动本地服务
 gulp.task('serve', function () {
   bs.init({
@@ -48,18 +35,7 @@ gulp.task('serve', function () {
     startPath: 'src/html/index.html'
   })
 })
-//html
-// gulp.task('html', function(){
-//   gulp.src('src/html/*.html')
-//     .pipe( fileinclude({
-//       prefix: '@@',
-//       basepath: 'src/template',
-//       indent: true,
-//     }) 
-//   )
-// }
-=======
-})
+
 // html
 gulp.task('html', function(){
   gulp.src('src/html/*.html')
@@ -89,7 +65,7 @@ gulp.task('serve', function () {
     startPath: 'src/html/personal center.html'
   })
 })
->>>>>>> 03b0a49f40f9858bf646bed9fafebf8b96f93c6a
+
 // 自动监听任务
 gulp.task('watch', function () {
 
@@ -97,10 +73,9 @@ gulp.task('watch', function () {
   gulp.watch('src/html/*.html', function () {
     bs.reload();
   });
-
 });
 
 // 默认任务
-gulp.task('default', function () {
+gulp.task('default', function (){
   gulp.run('serve', 'watch')
 });
