@@ -77,7 +77,24 @@
   top: 0.38rem;
   left: 0.2rem;
 }
-.btn-group {
+.bbb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.xuanze {
+  margin-top: 0.266667rem;
+}
+.ccc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
