@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="../../csstest/css/gouwuche.css">
+	<link rel="stylesheet" href="../css/gouwuche.css">
 </head>
 
 <body>
@@ -16,8 +16,8 @@
 	<ul>
 		<li class="lione">
 			<div>
-				<img src="../images/assets/选择框.png" alt="" class="dian" id="dian">
-				<img src="../images/assets/shangpin.png" alt="" class="chanpin">
+				<img src="../images/img/选择框.png" alt="" class="dian" id="dian">
+				<img src="../images/img/shangpin.png" alt="" class="chanpin">
 				<p class="hahah">vivX6Plus移动联通双4G手机双卡4GB+64GB 金色</p>
 				<p class="s"> ￥ 2988</p>
 				<form action="">
@@ -30,8 +30,8 @@
 		</li>
 		<li>
 			<div>
-				<img src="../images/assets/选择框.png" alt="" class="dian" id="dian">
-				<img src="../images/assets/shangpin.png" alt="" class="chanpin">
+				<img src="../images/img/选择框.png" alt="" class="dian" id="dian">
+				<img src="../images/img/shangpin.png" alt="" class="chanpin">
 				<p class="hahah">vivX6Plus移动联通双4G手机双卡4GB+64GB 金色</p>
 				<p class="s"> ￥ 2988</p>
 				<form action="">
@@ -43,8 +43,8 @@
 		</li>
 		<li>
 			<div>
-				<img src="../images/assets/选择框.png" alt="" class="dian" id="dian">
-				<img src="../images/assets/shangpin.png" alt="" class="chanpin">
+				<img src="../images/img/选择框.png" alt="" class="dian" id="dian">
+				<img src="../images/img/shangpin.png" alt="" class="chanpin">
 				<p class="hahah">vivX6Plus移动联通双4G手机双卡4GB+64GB 金色</p>
 				<p class="s"> ￥ 2988</p>
 				<form action="">
@@ -56,7 +56,7 @@
 		</li>
 	</ul>
 	<footer>
-		<p><img src="../images/assets/选择框.png" id="quanxuan">&nbsp;&nbsp;全选</p>
+		<p><img src="../images/img/选择框.png" id="quanxuan">&nbsp;&nbsp;全选</p>
 		<p>总计：<span class="qina"></span><i></i>&nbsp;<span>(不含运费)</span></p>
 		<button>结算</button>
 	</footer>
@@ -69,7 +69,7 @@
 		var t = false;
 		xuan.onclick = function () {
 			t = !t;
-			this.src = t ? '../images/assets/选择图标.png' : '../images/assets/选择框.png';
+			this.src = t ? '../images/img/选择图标.png' : '../images/img/选择框.png';
 		}
 
 
@@ -79,14 +79,14 @@
 		var two = false;
 		xuanone.onclick = function () {
 			two = !two;
-			this.src = two ? '../images/assets/选择图标.png' : '../images/assets/选择框.png';
+			this.src = two ? '../images/img/选择图标.png' : '../images/img/选择框.png';
 		}
 
 		var xuanthree = document.getElementsByClassName('dian')[2];
 		var three = false;
 		xuanthree.onclick = function () {
 			three = !three;
-			this.src = three ? '../images/assets/选择图标.png' : '../images/assets/选择框.png';
+			this.src = three ? '../images/img/选择图标.png' : '../images/img/选择框.png';
 		}
 
 		$('html').on('click','#jia',function(){
@@ -115,15 +115,15 @@
 		$('#quanxuan').click(function(){
 			q = !q;
 			if(q){
-				this.src = '../images/assets/选择图标.png';
-				xuan.src = '../images/assets/选择图标.png';
-				xuanone.src = '../images/assets/选择图标.png';
-				xuanthree.src = '../images/assets/选择图标.png'
+				this.src = '../images/img/选择图标.png';
+				xuan.src = '../images/img/选择图标.png';
+				xuanone.src = '../images/img/选择图标.png';
+				xuanthree.src = '../images/img/选择图标.png'
 			}else{
-				this.src = '../images/assets/选择框.png';
-				xuan.src = '../images/assets/选择框.png';
-				xuanone.src = '../images/assets/选择框.png';
-				xuanthree.src = '../images/assets/选择框.png'
+				this.src = '../images/img/选择框.png';
+				xuan.src = '../images/img/选择框.png';
+				xuanone.src = '../images/img/选择框.png';
+				xuanthree.src = '../images/img/选择框.png'
 			}
 		})
 
