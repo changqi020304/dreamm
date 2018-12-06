@@ -13,7 +13,7 @@
     <div class="box">
         <div class="header">
             <ul>
-                <li>返回</li>
+                <li id="returnindex">返回</li>
                 <li>个人中心</li>
                 <li>...</li>
             </ul>
@@ -121,6 +121,13 @@
         </div>
     </div>
     <script src="../script/peizhiwenjian.js"></script>
+    <script src="../script/jquery-3.2.1.min.js"></script>
+    <script>
+        $("#returnindex").click(function(){
+            history.back="index.html";
+    })
+    </script>
+    
 </body>
 
 </html>
