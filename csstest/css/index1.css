@@ -14,8 +14,14 @@ body {
   width: 100%;
   height: 80rem;
   background: #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 #box .body .main {
   width: 90%;
@@ -26,8 +32,13 @@ body {
 #box .body .main ul li {
   width: 100%;
   line-height: 7rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
 }
 #box .body .main ul li .red {
   color: red;
@@ -35,27 +46,53 @@ body {
 #box .navThree {
   width: 100%;
   height: 7.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #ccc;
 }
 #box .navThree span {
   width: 21.6%;
   height: 64%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background: #ccc;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
-  border-radius: 0.6rem;
-  align-items: center;
+  -webkit-border-radius: 0.6rem;
+          border-radius: 0.6rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #box .navtwo {
   width: 100%;
   height: 7.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #ccc;
 }
 #box .navone {
@@ -63,17 +100,33 @@ body {
   height: 8rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #box .top {
   width: 100%;
   height: 10rem;
   background: blue;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 #box .top .sans {
@@ -86,9 +139,17 @@ body {
   left: 0;
   font-size: 3rem;
   height: 13rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   color: white;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: red;
 }
