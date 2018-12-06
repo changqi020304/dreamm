@@ -1,0 +1,247 @@
+html,
+body,
+.box {
+  width: 100%;
+  height: 100rem;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+html .body,
+body .body,
+.box .body {
+  width: 100%;
+  height: 100rem;
+  border-top: 1rem solid #ccc;
+  font-size: 2.5rem;
+}
+html .body .soji,
+body .body .soji,
+.box .body .soji {
+  width: 96%;
+  height: 45rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+html .body .soji div,
+body .body .soji div,
+.box .body .soji div {
+  width: 49%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+html .body .soji div h3,
+body .body .soji div h3,
+.box .body .soji div h3 {
+  margin: 0;
+  margin-left: 1.3rem;
+  margin-top: 1.3rem;
+  color: orange;
+}
+html .body .soji div p,
+body .body .soji div p,
+.box .body .soji div p {
+  margin: 0;
+  line-height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+html .body .soji div img,
+body .body .soji div img,
+.box .body .soji div img {
+  display: flex;
+  justify-content: center;
+  display: block;
+  width: 90%;
+  height: 65%;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+}
+html .body .h41,
+body .body .h41,
+.box .body .h41 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 3rem;
+}
+html .footer,
+body .footer,
+.box .footer {
+  width: 100%;
+  height: 10rem;
+  font-size: 2rem;
+  position: fixed;
+  background: white;
+  border-top: 1px solid #ccc;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html .footer dl,
+body .footer dl,
+.box .footer dl {
+  width: 10rem;
+  background: white;
+  height: 7rem;
+  text-align: left;
+}
+html .footer dl dt,
+body .footer dl dt,
+.box .footer dl dt {
+  display: flex;
+  justify-content: center;
+}
+html .footer dl dt img,
+body .footer dl dt img,
+.box .footer dl dt img {
+  width: 4rem;
+  height: 4rem;
+}
+html .footer dl dd,
+body .footer dl dd,
+.box .footer dl dd {
+  margin-top: 0.5rem;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  margin-top: 1rem;
+}
+html .d,
+body .d,
+.box .d {
+  width: 100%;
+  height: 4rem;
+  background: blue;
+}
+html .marquee,
+body .marquee,
+.box .marquee {
+  width: 100%;
+  height: 15rem;
+  margin: 0;
+  font-size: 3rem;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+html .marquee ul,
+body .marquee ul,
+.box .marquee ul {
+  width: 100%;
+  height: 75rem;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+html .marquee ul li,
+body .marquee ul li,
+.box .marquee ul li {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+html .marquee ul li p,
+body .marquee ul li p,
+.box .marquee ul li p {
+  float: right;
+  width: 80%;
+  margin-right: 1rem;
+}
+html .marquee ul li p span,
+body .marquee ul li p span,
+.box .marquee ul li p span {
+  color: red;
+}
+html .marquee ul li img,
+body .marquee ul li img,
+.box .marquee ul li img {
+  float: left;
+  width: 6rem;
+  height: auto;
+}
+html .banner,
+body .banner,
+.box .banner {
+  width: 100%;
+  height: 25rem;
+  background: url(../../src/images/assets/IMG_2201Copy.png) no-repeat;
+  background-size: cover;
+}
+html .nav,
+body .nav,
+.box .nav {
+  width: 100%;
+  height: 10rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+html .search,
+body .search,
+.box .search {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+html .search .img1,
+body .search .img1,
+.box .search .img1 {
+  width: 10rem;
+  height: auto;
+}
+html .search input,
+body .search input,
+.box .search input {
+  width: 40rem;
+  height: 5rem;
+  border: none;
+  background: #ccc;
+  border-radius: 10rem;
+  outline: none;
+  font-size: 3rem;
+}
+html .search .img2,
+body .search .img2,
+.box .search .img2 {
+  position: absolute;
+  width: 4rem;
+  height: auto;
+  top: 3rem;
+  right: 9rem;
+}
+html .search .img3,
+body .search .img3,
+.box .search .img3 {
+  width: 5.5rem;
+  height: auto;
+}
+@keyframes haha {
+  0% {
+    top: 0rem;
+  }
+  25% {
+    top: -15rem;
+  }
+  50% {
+    top: -30rem;
+  }
+  75% {
+    top: -45rem;
+  }
+  100% {
+    top: -60rem;
+  }
+}

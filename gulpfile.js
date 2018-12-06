@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var less = require('gulp-less');
 var bs = require('browser-sync').create();
 var autoprefixer = require('gulp-autoprefixer');
-
+// var fileinclued = 
 // less编译任务
 gulp.task('lessc', function () {
   gulp.src('src/less/*.less')
@@ -15,31 +15,33 @@ gulp.task('lessc', function () {
 });
 
 //js
-gulp.task('jss', function () {
-  gulp.src('src/script/*.js')
-    .pipe(js())
-    // .pipe( auto() )
-    .pipe(bs.reload({
-      stream: true
-    }));
-});
+// gulp.task('jss', function () {
+//   gulp.src('src/script/*.js')
+//     // .pipe(js())
+//     // .pipe( auto() )
+//     .pipe(bs.reload({
+//       stream: true
+//     }));
+// });
 // serve启动本地服务
 gulp.task('serve', function () {
   bs.init({
     server: {
       baseDir: './'
     },
-    startPath: 'src/html/style1.html'
+    startPath: 'src/html/index.html'
   })
 })
 //html
-gulp.task('html', function(){
-  gulp.src('src/html/*.html')
-    .pipe( fileinclude({
-      prefix: '@@',
-      basepath: 'src/template',
-      indent: true,
-    }) )
+// gulp.task('html', function(){
+//   gulp.src('src/html/*.html')
+//     .pipe( fileinclude({
+//       prefix: '@@',
+//       basepath: 'src/template',
+//       indent: true,
+//     }) 
+//   )
+// }
 // 自动监听任务
 gulp.task('watch', function () {
 
@@ -53,4 +55,4 @@ gulp.task('watch', function () {
 // 默认任务
 gulp.task('default', function () {
   gulp.run('serve', 'watch')
-})
+});
