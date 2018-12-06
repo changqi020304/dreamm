@@ -26,6 +26,8 @@ gulp.task('lessc', function(){
     .pipe( gulp.dest('csstest/css'))
     .pipe( bs.reload({stream: true}));
   })
+
+
 // serve启动本地服务
 gulp.task('serve', function () {
   bs.init({
@@ -35,7 +37,6 @@ gulp.task('serve', function () {
     startPath: 'src/html/index.html'
   })
 })
-
 // html
 gulp.task('html', function(){
   gulp.src('src/html/*.html')
@@ -62,10 +63,9 @@ gulp.task('serve', function () {
     server: {
       baseDir: './'
     },
-    startPath: 'src/html/personal center.html'
+    startPath: 'src/html/index.html'
   })
 })
-
 // 自动监听任务
 gulp.task('watch', function () {
 

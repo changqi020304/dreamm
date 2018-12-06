@@ -252,6 +252,7 @@
 }
 .footer {
   width: 100%;
+  background: red;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
